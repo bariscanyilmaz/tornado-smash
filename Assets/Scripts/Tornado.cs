@@ -52,6 +52,7 @@ public class Tornado : MonoBehaviour
                 {
                     _obstacle.Attach(_target);
                     GameManager.Instance.IncreaseCollected();
+                    UIManager.Instance.UpdateLevelBar(GameManager.Instance.Collected,GameManager.Instance.Total);
                 }
                 else
                 {
