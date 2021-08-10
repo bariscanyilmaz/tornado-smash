@@ -514,6 +514,7 @@ MonoBehaviour:
   _slider: {fileID: 923538992}
   _congratsPanel: {fileID: 1893575948}
   _nextLevelBGImage: {fileID: 755567310}
+  levelBarColorsData: {fileID: 11400000, guid: fdc4fe7cc25de7349b22fc49d28ec37b, type: 2}
 --- !u!1 &639371236
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,9 +954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 246b8ee069491824aba566e8b775421a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _congratsPanel: {fileID: 1893575948}
-  _slider: {fileID: 923538992}
-  _nextLevelBG: {fileID: 755567308}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
