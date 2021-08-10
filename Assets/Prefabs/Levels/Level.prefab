@@ -191,6 +191,622 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6207820184002295123}
     m_Modifications:
+    - target: {fileID: 1449333832115232208, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832115232222, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832121677068, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832121677070, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832123470721, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832123470723, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832134438566, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832134438584, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832145313988, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832145313990, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832147922256, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832147922270, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832151820709, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832151820711, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832203122908, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832203122911, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832221692643, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832221692645, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832251951936, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832251951938, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832263682644, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832263682646, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832289544384, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832289544398, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832295098770, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832295098772, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832349186573, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832349186575, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832372696219, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832372696221, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832394040129, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832394040131, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832409988358, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832409988376, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832448597640, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832448597750, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832460495368, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832460495370, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832475233802, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832475233804, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832488035184, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832488035199, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832501900981, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832501900983, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832521610548, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832521610550, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832527112213, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832527112214, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832530159496, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832530159498, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832561420656, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832561420670, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832617535978, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832617535980, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832619276989, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832619276991, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832622045881, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832622045883, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832625821171, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832625821173, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832664440840, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832664440842, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832734266299, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832734266301, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832761923483, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832761923485, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832823001649, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832823001651, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832835194918, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832835194936, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832844308328, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832844308330, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832857657419, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832857657421, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832864179320, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832864179322, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832899095884, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832899095886, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832899293540, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832899293542, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832908107721, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832908107723, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832913358216, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832913358218, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832969824192, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832969824206, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832973726658, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832973726660, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832976692275, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832976692286, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832981283818, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333832981283820, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832985003233, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333832985003247, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833001492549, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833001492551, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833013793682, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833013793684, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833021587704, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833021587706, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833119543477, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833119543479, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833129419904, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833129419918, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833133918316, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833133918318, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833139072634, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833139072636, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833145105127, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833145105145, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833182194740, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833182194742, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 1449333833188080326, guid: 52cee17e132ced2458b69c3111a4aeca,
         type: 3}
       propertyPath: m_Name
@@ -250,6 +866,600 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833206315462, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833206315480, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833253729629, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833253729631, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833297700417, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833297700419, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833319355591, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833319355609, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833327234953, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833327235063, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833330526512, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833330526514, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833353031994, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833353031996, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833369009228, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833369009230, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833370475681, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833370475683, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833379184662, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833379184680, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833382980241, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833382980255, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833396560129, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833396560140, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833415421589, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833415421591, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833435412092, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833435412094, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833468207485, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833468207487, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833469119693, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833469119695, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833488515218, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833488515220, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833495989835, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833495989837, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833511375687, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833511375705, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833541857174, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833541857192, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833567197137, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833567197139, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833619950789, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833619950791, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833670865578, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833670865580, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833682236180, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833682236182, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833707968525, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833707968527, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833718329985, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833718329999, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833718462019, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833718462021, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833723961137, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833723961139, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833742137633, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833742137647, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833753433404, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833753433406, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833775323060, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833775323062, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833779202433, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833779202443, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833796573364, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833796573366, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833828737196, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833828737198, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833929467717, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833929467719, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833936356496, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833936356498, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833938980874, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833938980876, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833939312778, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833939312780, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833947240088, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833947240090, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833963700562, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833963700567, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333833976041458, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333833976041460, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834055452490, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834055452492, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834072491650, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834072491655, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834078568947, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834078568949, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834106806777, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834106806778, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834116635211, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834116635213, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834127964816, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834127964830, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834138639576, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834138639578, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834171181201, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834171181203, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834190737221, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834190737223, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834223527488, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834223527490, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834225413553, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834225413564, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834231732968, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834231732970, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449333834247171044, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: obstacleRotatePropertyData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4c1fababbd526e142ab4a5cea3c7d204,
+        type: 2}
+    - target: {fileID: 1449333834247171046, guid: 52cee17e132ced2458b69c3111a4aeca,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cee17e132ced2458b69c3111a4aeca, type: 3}
