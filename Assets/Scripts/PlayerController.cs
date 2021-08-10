@@ -5,18 +5,19 @@ public class PlayerController : MonoBehaviour
     bool _isMove;
     float _axisX, _axisY;
 
+    Plane _plane;
     Camera _cam;
     Rigidbody _rb;
     Vector3 _currentPosition, _startPosition;
 
-    [SerializeField] float speed = 10f, maxWidth = 14f, maxHeight = 14f;
+    [SerializeField] float speed = 10f;
 
     void Start()
     {
+        _plane = FindObjectOfType<Plane>();
         _cam = Camera.main;
         _rb = GetComponent<Rigidbody>();
     }
-
     void Update()
     {
         if (GameManager.Instance.GameStatus == GameState.Play)
@@ -30,13 +31,11 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.Instance.StartGame();
         }
-
-
     }
     void GetInputs()
     {
-        _axisX = Input.GetAxis("Horizontal");
-        _axisY = Input.GetAxis("Vertical");
+        _axisX = Input.GetAxis(GameConstants.HorizontalAxisName);
+        _axisY = Input.GetAxis(GameConstants.VerticalAxisName);
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -61,14 +60,14 @@ public class PlayerController : MonoBehaviour
 
     void CheckPosition()
     {
-        if (_rb.position.x > maxWidth || _rb.position.x < -maxWidth)
+        if (_rb.position.x > _plane.MaxWidth || _rb.position.x < -_plane.MaxWidth)
         {
-            _rb.position = new Vector3(Mathf.Sign(_rb.position.x) * maxWidth, _rb.position.y, _rb.position.z);
+            _rb.position = new Vector3(Mathf.Sign(_rb.position.x) * _plane.MaxWidth, _rb.position.y, _rb.position.z);
         }
 
-        if (_rb.position.z > maxHeight || _rb.position.z < -maxHeight)
+        if (_rb.position.z > _plane.MaxHeight || _rb.position.z < -_plane.MaxHeight)
         {
-            _rb.position = new Vector3(_rb.position.x, _rb.position.y, Mathf.Sign(_rb.position.z) * maxHeight);
+            _rb.position = new Vector3(_rb.position.x, _rb.position.y, Mathf.Sign(_rb.position.z) * _plane.MaxHeight);
         }
     }
 

@@ -8,8 +8,6 @@ public class Tornado : MonoBehaviour
 
     [SerializeField] Transform _target;
     [SerializeField] TornadoPropertySO tornadoPropertyData;
-
-
     public float Radius => tornadoPropertyData.MinDistance;
 
     void Start()
@@ -28,7 +26,7 @@ public class Tornado : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Obstacle"))
+        if (other.CompareTag(GameConstants.ObstacleTagName))
         {
             if (other.attachedRigidbody.isKinematic)
             {
@@ -44,7 +42,7 @@ public class Tornado : MonoBehaviour
     }
     void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Obstacle"))
+        if (other.CompareTag(GameConstants.ObstacleTagName))
         {
             _obstacle = other.GetComponent<Obstacle>();
             Vector3 dir = (_target.transform.position - other.transform.position);
@@ -66,7 +64,7 @@ public class Tornado : MonoBehaviour
             }
         }
 
-        if (GameState.PreFinish == GameManager.Instance.GameStatus && other.CompareTag("Ground"))
+        if (GameState.PreFinish == GameManager.Instance.GameStatus && other.CompareTag(GameConstants.GroundTagName))
         {
             _ground = other.GetComponent<Ground>();
             if (!_ground.enabled)
@@ -78,7 +76,7 @@ public class Tornado : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Obstacle"))
+        if (other.CompareTag(GameConstants.ObstacleTagName))
         {
             _obstacle = other.GetComponent<Obstacle>();
             if (_obstacle != null)
