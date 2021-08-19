@@ -1,10 +1,9 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-
 public class UIManager : Singleton<UIManager>
 {
     
+    [SerializeField] float _delayTime=1f;
     [SerializeField] Slider _slider;
     [SerializeField] GameObject _congratsPanel;
     [SerializeField] Image _nextLevelBGImage;
@@ -17,15 +16,7 @@ public class UIManager : Singleton<UIManager>
         {
             
             _nextLevelBGImage.color = levelBarColorsData.FillColor;
-            
-            GameManager.Instance.SetGameStatus(GameState.PreFinish);
-
-            //say player make radius 1-to-10
-            //rotate ground obj 
-
-            //FinishGameAnim();
-
-            //SetCongratsPanel(true);
+            Invoke("SetStatus",_delayTime);
         }
         else
         {
@@ -34,5 +25,6 @@ public class UIManager : Singleton<UIManager>
     }
 
     public void SetCongratsPanel(bool isShow) => _congratsPanel.SetActive(isShow);
+    void SetStatus()=>GameManager.Instance.SetGameStatus(GameState.PreFinish);
 
 }
