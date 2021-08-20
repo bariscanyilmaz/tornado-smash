@@ -511,6 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13143ecec3c4c8e478a31e7ce5e5cac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _delayTime: 1
   _slider: {fileID: 923538992}
   _congratsPanel: {fileID: 1893575948}
   _nextLevelBGImage: {fileID: 755567310}
@@ -954,6 +955,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 246b8ee069491824aba566e8b775421a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _levelPrefabs:
+  - {fileID: 6207820184002295124, guid: 2b75aa54c52bf024994187c9620b3d01, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207820184002295124, guid: 2b75aa54c52bf024994187c9620b3d01,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b75aa54c52bf024994187c9620b3d01, type: 3}

@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-
 public enum GameState
 {
     Play,
@@ -13,7 +11,11 @@ public class GameManager : Singleton<GameManager>
 {
     float _collected;
     float _total;
+    int _levelIndex;
     GameState _gameStatus;
+    GameObject _currentLevel;
+
+    [SerializeField] GameObject[] _levelPrefabs;
 
     public float Total => _total;
     public float Collected => _collected;
@@ -22,18 +24,28 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
 
-        UIManager.Instance.SetCongratsPanel(false);
+        LoadNextLevel();
+        StartGame();
+    }
+
+    public void RestartGame() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    public void IncreaseCollected() => _collected++;
+    public void SetGameStatus(GameState gameState) => _gameStatus = gameState;
+    public void StartGame()
+    {
         _gameStatus = GameState.Play;
         _collected = 0;
         _total = FindObjectsOfType<Obstacle>().Length;
         UIManager.Instance.UpdateLevelBar(_collected, _total);
     }
 
-    public void StartGame() => _gameStatus = GameState.Play;
+    public void LoadNextLevel()
+    {
 
-    public void RestartGame() =>SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    public void IncreaseCollected() => _collected++;
-    public void SetGameStatus(GameState gameState) => _gameStatus = gameState;
+        if (_currentLevel) Destroy(_currentLevel);
+
+        _currentLevel = Instantiate(_levelPrefabs[_levelIndex % _levelPrefabs.Length], Vector3.zero, Quaternion.identity);
+    }
 
 }
 

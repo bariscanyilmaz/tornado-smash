@@ -2,8 +2,8 @@
 using UnityEngine.UI;
 public class UIManager : Singleton<UIManager>
 {
-    
-    [SerializeField] float _delayTime=1f;
+
+    [SerializeField] float _delayTime = 1f;
     [SerializeField] Slider _slider;
     [SerializeField] GameObject _congratsPanel;
     [SerializeField] Image _nextLevelBGImage;
@@ -14,9 +14,9 @@ public class UIManager : Singleton<UIManager>
 
         if (_slider.value == 100f)
         {
-            
+
             _nextLevelBGImage.color = levelBarColorsData.FillColor;
-            Invoke("SetStatus",_delayTime);
+            Invoke("SetStatus", _delayTime);
         }
         else
         {
@@ -25,6 +25,10 @@ public class UIManager : Singleton<UIManager>
     }
 
     public void SetCongratsPanel(bool isShow) => _congratsPanel.SetActive(isShow);
-    void SetStatus()=>GameManager.Instance.SetGameStatus(GameState.PreFinish);
+    void SetStatus()
+    {
+        GameManager.Instance.SetGameStatus(GameState.PreFinish);
+        StartCoroutine(FindObjectOfType<Tornado>().FinishAnimation());
+    }
 
 }
