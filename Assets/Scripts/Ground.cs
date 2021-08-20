@@ -9,7 +9,7 @@ public class Ground : BaseTransform
     Transform _target;
     [SerializeField] RotatePropertySO groundRotatePropertyData;
 
-    
+
 
     void Start()
     {
@@ -32,7 +32,7 @@ public class Ground : BaseTransform
         _delta = Time.deltaTime;
         _localScale -= _delta * groundRotatePropertyData.ScaleSpeed;
 
-        transform.localPosition =Rotate(_angle, 0, _radius);
+        transform.localPosition = Rotate(0, _angle, _radius);
         transform.localScale = Scale(_localScale);
 
         _angle += _delta * groundRotatePropertyData.RotateSpeed;

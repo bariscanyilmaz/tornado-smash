@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Obstacle :BaseTransform
+public class Obstacle : BaseTransform
 {
 
     bool _isInit;
@@ -13,7 +13,7 @@ public class Obstacle :BaseTransform
     Transform _target;
     Tornado _tornado;
     Collider _coll;
-    
+
     [SerializeField] bool _isRotate = false;
     [SerializeField] RotatePropertySO obstacleRotatePropertyData;
 
@@ -33,7 +33,7 @@ public class Obstacle :BaseTransform
             _localHeight += _delta * obstacleRotatePropertyData.RiseSpeed;
             _localScale -= _delta * obstacleRotatePropertyData.ScaleSpeed;
 
-            transform.localPosition =Rotate( _angle,_localHeight, _tornado.Radius);
+            transform.localPosition = Rotate(_localHeight, _angle, _tornado.Radius);
             transform.localScale = Scale(_localScale);
 
             _angle += _delta * obstacleRotatePropertyData.RotateSpeed;
