@@ -1,17 +1,26 @@
 ﻿using UnityEngine;
+using Zenject;
+
 public class Ground : MonoBehaviour
 {
     bool _isRotate;
     float _delta = 0;
     float _angle, _localScale = 1, _radius;
-    
     Transform _target;
+    TransformService _transformService;
     [SerializeField] RotatePropertySO groundRotatePropertyData;
+
+    [Inject]
+    public void Contstruct(TransformService transformService)
+    {
+        _transformService = transformService;
+    }
+
     void Start()
     {
         transform.SetParent(_target);
         GetComponent<Collider>().enabled = false;
-        
+
         _angle = Mathf.Atan2(transform.position.z, transform.position.x) * Mathf.Rad2Deg;
         _radius = Mathf.Sqrt(transform.position.x * transform.position.x + transform.position.y * transform.position.y);
     }
@@ -28,8 +37,8 @@ public class Ground : MonoBehaviour
         _delta = Time.deltaTime;
         _localScale -= _delta * groundRotatePropertyData.ScaleSpeed;
 
-        transform.localPosition = Rotate(_angle, _radius);
-        transform.localScale = Scale(_localScale);
+        transform.localPosition = _transformService.Rotate(_angle, 0, _radius);
+        transform.localScale = _transformService.Scale(_localScale);
 
         _angle += _delta * groundRotatePropertyData.RotateSpeed;
         _radius -= _delta * groundRotatePropertyData.RadiusReduceSpeed;
@@ -43,18 +52,4 @@ public class Ground : MonoBehaviour
     {
         _isRotate = isRotate;
     }
-    Vector3 Rotate(float angle, float radius)
-    {
-        return new Vector3(
-                Mathf.Cos((angle * Mathf.Deg2Rad)) * radius,
-                0,
-                Mathf.Sin((angle * Mathf.Deg2Rad)) * radius
-                );
-    }
-
-    Vector3 Scale(float localScale)
-    {
-        return new Vector3(localScale, localScale, localScale);
-    }
-
 }
