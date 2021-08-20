@@ -1,20 +1,15 @@
 ﻿using UnityEngine;
-using Zenject;
 
-public class Ground : MonoBehaviour
+
+public class Ground : BaseTransform
 {
     bool _isRotate;
     float _delta = 0;
     float _angle, _localScale = 1, _radius;
     Transform _target;
-    TransformService _transformService;
     [SerializeField] RotatePropertySO groundRotatePropertyData;
 
-    [Inject]
-    public void Contstruct(TransformService transformService)
-    {
-        _transformService = transformService;
-    }
+    
 
     void Start()
     {
@@ -37,8 +32,8 @@ public class Ground : MonoBehaviour
         _delta = Time.deltaTime;
         _localScale -= _delta * groundRotatePropertyData.ScaleSpeed;
 
-        transform.localPosition = _transformService.Rotate(_angle, 0, _radius);
-        transform.localScale = _transformService.Scale(_localScale);
+        transform.localPosition =Rotate(_angle, 0, _radius);
+        transform.localScale = Scale(_localScale);
 
         _angle += _delta * groundRotatePropertyData.RotateSpeed;
         _radius -= _delta * groundRotatePropertyData.RadiusReduceSpeed;

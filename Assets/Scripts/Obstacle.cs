@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using Zenject;
 
-public class Obstacle : MonoBehaviour
+public class Obstacle :BaseTransform
 {
 
     bool _isInit;
@@ -14,19 +13,11 @@ public class Obstacle : MonoBehaviour
     Transform _target;
     Tornado _tornado;
     Collider _coll;
-    TransformService _transformService;
+    
     [SerializeField] bool _isRotate = false;
     [SerializeField] RotatePropertySO obstacleRotatePropertyData;
 
     public bool IsInit => _isInit;
-
-
-    [Inject]
-    public void Contstruct(TransformService transformService)
-    {
-        _transformService = transformService;
-    }
-
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -42,8 +33,8 @@ public class Obstacle : MonoBehaviour
             _localHeight += _delta * obstacleRotatePropertyData.RiseSpeed;
             _localScale -= _delta * obstacleRotatePropertyData.ScaleSpeed;
 
-            transform.localPosition = _transformService.Rotate( _angle,_localHeight, _tornado.Radius);
-            transform.localScale = _transformService.Scale(_localScale);
+            transform.localPosition =Rotate( _angle,_localHeight, _tornado.Radius);
+            transform.localScale = Scale(_localScale);
 
             _angle += _delta * obstacleRotatePropertyData.RotateSpeed;
 
@@ -105,16 +96,6 @@ public class Obstacle : MonoBehaviour
         _isInit = false;
         enabled = false;
     }
-
-    Vector3 Rotate(float tmpHeight, float angle, float radius) =>
-
-    new Vector3(
-                Mathf.Cos((angle * Mathf.Deg2Rad)) * radius,
-                tmpHeight,
-                Mathf.Sin((angle * Mathf.Deg2Rad)) * radius
-                );
-
-    Vector3 Scale(float localScale) => new Vector3(localScale, localScale, localScale);
 
     float GetAngle(Transform target) => Mathf.Atan2(target.localPosition.z - transform.localPosition.z, target.localPosition.x - transform.localPosition.x) * Mathf.Rad2Deg;
 
