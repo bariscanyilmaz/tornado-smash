@@ -30,6 +30,7 @@ public class GameManager : Singleton<GameManager>
 
     public void RestartGame() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     public void IncreaseCollected() => _collected++;
+    public void IncreaseLevel() => _levelIndex++;
     public void SetGameStatus(GameState gameState) => _gameStatus = gameState;
     public void StartGame()
     {
@@ -43,7 +44,6 @@ public class GameManager : Singleton<GameManager>
     {
 
         if (_currentLevel) Destroy(_currentLevel);
-
         _currentLevel = Instantiate(_levelPrefabs[_levelIndex % _levelPrefabs.Length], Vector3.zero, Quaternion.identity);
     }
 

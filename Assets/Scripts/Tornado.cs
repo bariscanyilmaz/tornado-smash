@@ -90,6 +90,7 @@ public class Tornado : MonoBehaviour
             _collider.radius += (Time.deltaTime * tornadoPropertyData.RadiusReduceSpeed);
             StartCoroutine(FinishAnimation());
         }else {
+            GameManager.Instance.IncreaseLevel();      
             GameManager.Instance.LoadNextLevel();      
             GameManager.Instance.StartGame();
         }
